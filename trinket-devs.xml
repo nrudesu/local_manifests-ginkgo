@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="drag0n"
+		fetch="https://github.com/drag0n" />
+
+	<remote name="trinket-devs"
+		fetch="https://github.com/trinket-devs/"
+		revision="10.0" />
+
+	<project path="device/xiaomi/ginkgo" name="device_xiaomi_cactus" remote="trinket-devs" />
+	<project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_cereus" remote="trinket-devs" />
+	<project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_mt6765-common" remote="trinket-devs"/>
+	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="trinket-devs" />
+	<project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="trinket-devs">
+	<project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="trinket-devs" />
+	<project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="trinket-devs" />
+	<project path="prebuilts/clang/host/linux-x86/clang-12.0" name="proton-clang" remote="drag0n" revision="master" />
+	
+</manifest>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="drag0n"
-		fetch="https://github.com/drag0n" />
+	<remote name="kdrag0n"
+		fetch="https://github.com/kdrag0n" />
 
 	<remote name="trinket-devs"
 		fetch="https://github.com/trinket-devs/"
@@ -14,6 +14,6 @@
 	<project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="trinket-devs" revision="ten"/>
 	<project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="trinket-devs" revision="ten" />
 	<project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="trinket-devs" revisio="ten" />
-	<project path="prebuilts/clang/host/linux-x86/clang-12.0" name="proton-clang" remote="drag0n" revision="master" />
+	<project path="prebuilts/clang/host/linux-x86/clang-12.0" name="proton-clang" remote="kdrag0n" revision="master" />
 	
 </manifest>
